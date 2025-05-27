@@ -31,10 +31,10 @@ class GreenmileFulfillmentService extends AbstractFulfillmentProviderService {
     "nextday",
   ]
 
-  constructor(options: any) {
+  constructor(options: any, container: any) {
     super();
     this.options_ = options;
-    this.greenmileBaseUrl = options.BackendUrl; // TODO: Replace with actual base URL
+    this.greenmileBaseUrl = container.BackendUrl; // TODO: Replace with actual base URL
   }
 
   /**

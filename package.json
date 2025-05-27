@@ -1,6 +1,6 @@
 {
   "name": "greenmile-fulfillment",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Greenmile fulfillment provider for Medusa e-commerce",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
