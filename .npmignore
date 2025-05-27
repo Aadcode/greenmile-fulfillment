@@ -1,0 +1,33 @@
+# Source code
+*.ts
+!*.d.ts
+tsconfig.json
+
+# Tests
+__tests__/
+test/
+tests/
+
+# Git files
+.git
+.gitignore
+
+# Config files
+.eslintrc
+.prettierrc
+.npmrc
+.github/
+
+# Build tools
+rollup.config.js
+webpack.config.js
+
+# Editor directories and files
+.idea
+.vscode
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
